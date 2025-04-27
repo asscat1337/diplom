@@ -40,28 +40,46 @@ pool.connect((err, db, done) => {
             
             if (err) { return console.log(err); }
             else {
-                console.log(table.rows);
+                // console.log(table.rows);
             }
         })
     }
-
 })
-// app.get("/api/levels", function (req, res) {
-//   pool.connect(function (err, db, done) {
-//     if (err) {
-//       return res.status(400).send(err);
-//     } else {
-//       db.query("SELECT * FROM levels", function (err, table) {
-//         done();
 
-//         if (err) {
-//           return res.status(400).send(err);
-//         } else {
-//           return res.status(200).send(table.rows);
-//         }
-//       });
-//     }
-//   });
-// });
+app.get("/api/tanks", function (req, res) {
+  pool.connect(function (err, db, done) {
+    if (err) {
+      return res.status(400).send(err);
+    } else {
+      db.query("SELECT * FROM tanks", function (err, table) {
+        done();
+
+        if (err) {
+          return res.status(400).send(err);
+        } else {
+          return res.status(200).send(table.rows);
+        }
+      });
+    }
+  });
+});
+
+app.get("/api/levels", function (req, res) {
+  pool.connect(function (err, db, done) {
+    if (err) {
+      return res.status(400).send(err);
+    } else {
+      db.query("SELECT * FROM levels", function (err, table) {
+        done();
+
+        if (err) {
+          return res.status(400).send(err);
+        } else {
+          return res.status(200).send(table.rows);
+        }
+      });
+    }
+  });
+});
 
 app.listen(PORT, () => console.log("Listening on port " + PORT));
