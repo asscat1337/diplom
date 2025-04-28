@@ -16,9 +16,12 @@ export default function BodyScheme({
 
   const handleClick = (event) => {
     if (event.target.hasAttribute("clickable")) {
-      // добавить для кружочков
-      const paramId = event.target.getAttribute("class-name");
+
+      // для какого класса (РВС/ГС/Насос)
+      const paramId = event.target.getAttribute("class-name"); 
+      // конкретный объект (РВС-1/ГС-2)
       const dataId = event.target.getAttribute("id");
+      // наименование на русском (не rvs-1, а РВС-1)
       const nameId = event.target.getAttribute("name");
 
       setSelectedObjectName(nameId);

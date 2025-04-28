@@ -3,15 +3,15 @@ import ParametrHead from "../../components/ParametrHead/ParametrHead";
 import ParametrList from "../../components/Graphic/ParametrList/ParametrList";
 import Barrel from "../../components/Graphic/Barrel/Barrel";
 import Body from "../../layout/Graphic/Body/Body";
-import { LineGraph } from "../../components/Graphic/Graphics/Line";
+import LineGraph from "../../components/Graphic/Graphics/Line";
 import AlertPanel from "../../components/Graphic/AlertPanel/AlertPanel";
 
 import './GraphicPage.css';
 
 
-export default function GraphicPage({ paramerts, objectName }) {
-  // console.log("graphic", objectName);
+export default function GraphicPage({ paramerts }) {
 
+  // {console.log("Параметры", paramerts)}
   return (
     <div className="page">
       <div className="graphic-page">
@@ -21,7 +21,6 @@ export default function GraphicPage({ paramerts, objectName }) {
             value="Величина"
             unit="Ед. изм."
           />
-          {/* {console.log("Параметры", paramerts)} */}
           <ParametrList paramertData={paramerts} />
           <Barrel />
         </LeftPanel>
