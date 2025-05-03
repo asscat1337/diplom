@@ -1,0 +1,33 @@
+.alert-block {
+    width: 335px;
+    height: 105px;
+    display: flex;
+    flex-direction: column;
+}
+
+.alert-head {
+    background: rgb(250, 0, 10);
+    height: 26px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.alert-head-name, .alert-datatime {
+    width: 167px;
+    padding: 0px 10px;
+}
+
+.alert-datatime {
+    display: flex;
+    justify-content: end;
+}
+
+.alert-message {
+    background: rgb(43, 65, 89);
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}

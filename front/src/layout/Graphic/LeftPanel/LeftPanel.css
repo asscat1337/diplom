@@ -1,0 +1,7 @@
+.left-panel {
+    /* width: 520px; */
+    /* height: 736px; */
+    display: flex;
+    flex-direction: column;
+    background: rgb(13, 44, 73);
+}

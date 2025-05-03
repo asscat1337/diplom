@@ -1,0 +1,87 @@
+.body-scheme {
+    flex: 1;
+    background: rgb(12, 32, 57);
+    width: 100%;
+    border: 1px solid rgb(86, 160, 207);
+    border-top: 3px solid rgb(86, 160, 207);
+    position: relative;
+    overflow: hidden;
+    background-color: #656d9b;
+}
+
+.scheme1 {
+    /* width: 100vh; */
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.zoom-button {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 35vh;
+    left: 10px;
+    z-index: 10;
+}
+.zoomIn-button, .zoomOut-button, .zoomReset-button {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-small;
+    font-weight: bold;
+    border: none;
+    border-radius: 15px;
+    filter:  opacity(80%);
+    background: rgba(12, 32, 57, 0.4);
+}
+
+.zoomIn-button:hover,
+.zoomOut-button:hover,
+.zoomReset-button:hover {
+    filter: brightness(0.4);
+}
+
+use[clickable]:hover {
+    filter: brightness(0.3) opacity(60%);
+    cursor: pointer; /* должен менять курсор при наведении мышкой */
+}
+
+.table_plus {
+    position: absolute;
+    top: 150px;
+    left: 10px;
+    z-index: 10;
+}
+
+.table_info {
+    font-size: small;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 5px;
+    background: rgba(12, 32, 57, 0.4);
+    border-radius: 10px;
+    z-index: 10;
+}
+
+.yel-row {
+    font-weight: bold;
+    color: #fff800;
+}
+
+.orange-row {
+    font-weight: bold;
+    color: #ffaa01;
+}
+
+.blue-row {
+    font-weight: bold;
+    color: #0092ff;
+}
+
+.white-row {
+    font-weight: bold;
+}

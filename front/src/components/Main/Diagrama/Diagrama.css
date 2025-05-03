@@ -1,0 +1,22 @@
+.diagrama-main {
+    /* width: 365px; */
+    height: 270px;
+    border: 1px solid rgb(86, 160, 207);
+    border-top: 3px solid rgb(86, 160, 207);
+}
+
+.diagrama-head {
+   background: rgb(10, 24, 42);
+   height: 38px;
+   padding: 0px 20px;
+   display: flex;
+   align-items: center;
+   font-size: 14px;
+   font-weight: bold;
+   color: white;
+}
+
+.diagrama-body {
+    background: rgb(12, 32, 57);
+    height: 232px;
+}

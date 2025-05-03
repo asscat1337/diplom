@@ -1,0 +1,96 @@
+.barrel {
+    /* width: 520px; */
+    /* height: 190px; */
+    border-top: 3px solid rgb(86, 160, 207);
+}
+
+.barrel__head {
+    background: rgb(10, 32, 55);
+    /* width: 520px; */
+    height: 32px;
+    display: flex;
+    align-items: center;
+    /* font-size: 14px; */
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+}
+
+.barrel__head_txt {
+    padding: 10px;
+}
+
+.barrel__body {
+    background: rgb(13, 44, 73);
+    /* width: 520px; */
+    height: 158px;
+    display: flex;
+}
+
+.barrel__right_panel {
+    /* width: 260px; */
+    height: 158px;
+    display: flex;
+}
+
+.barrel__level_num, .barrel__level_name {
+    /* width: 85px; */
+    width: 60px;
+    height: 158px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.barrel__level_text, .barrel__level_text1 {
+    display: flex;
+    justify-items: end;
+    padding: 10px;
+    /* font-size: 14px; */
+    font-size: 12px;
+    font-weight: bold;
+    color: yellow;
+}
+
+.barrel__level_text1 {
+    color:white;
+}
+
+.barrel__img {
+    /* width: 260px; */
+    /* height: 158px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.barrel__img_svg {
+    /* width: 158px; */
+    /* height: 158px; */
+    height: 150px;
+}
+
+.barrel__level {
+    width: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.barrel__level_gas {
+    width: 20px;
+    height: 45px;
+    background-color: rgb(252, 180, 20);
+}
+
+.barrel__level_oil {
+    width: 20px;
+    height: 45px;
+    background-color: rgb(2, 34, 49);
+}
+
+.barrel__level_water {
+    width: 20px;
+    height: 45px;
+    background-color: rgb(0, 171, 191);
+}

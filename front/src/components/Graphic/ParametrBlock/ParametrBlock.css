@@ -1,0 +1,17 @@
+.parametr-block {
+    /* height: 32px; */
+    height: 24px;
+    /* background: rgb(13, 44, 73); */
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgb(86, 160, 207);
+    /* font-size: 14px; */
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    padding: 0px 15px;
+}
+.parametr-block__body {
+    /* padding: 0px 15px; */
+}

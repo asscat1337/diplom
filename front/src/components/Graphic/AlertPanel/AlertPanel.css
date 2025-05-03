@@ -1,0 +1,18 @@
+.main {
+    display: flex;
+    background: rgb(13, 44, 73);
+    border-top: 3px solid rgb(86, 160, 207);
+    flex: 1;
+}
+
+.block_alert {
+    flex: 1;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    height: 68px;
+    padding: 0px 30px;
+
+}

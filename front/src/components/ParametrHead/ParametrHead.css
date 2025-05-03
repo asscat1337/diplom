@@ -1,0 +1,30 @@
+.parametr-head {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    padding: 0px 15px;
+    gap: 10px;
+    height: 32px;
+    align-items: end;
+    font-size: 10px;
+    color: rgb(109, 147, 183);
+    box-sizing: border-box;
+    border-bottom: 2px solid rgb(86, 160, 207);
+}
+
+.parametr-head__name {
+    width: 180px;
+    color: rgb(109, 147, 183);
+}
+
+.parametr-item__value {
+    display: flex;
+    justify-content: flex-end;
+    width: 52px;
+}
+
+.parametr-item__unit {
+    width: 86px;
+}

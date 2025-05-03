@@ -1,0 +1,11 @@
+.alert-list {
+    background: rgb(12, 32, 57);
+    border: 1px solid rgb(86, 160, 207);
+    border-top: 3px solid rgb(86, 160, 207);
+    height: 100vh;
+    padding: 30px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    overflow-y: auto;
+}

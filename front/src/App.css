@@ -1,0 +1,39 @@
+.bg {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 100;
+}
+.dialog-panel {
+    display: flex;
+    flex-direction: column;
+    background: #334;
+    width: 90vw;
+    height: 90vh;
+    border: 1px solid rgb(86, 160, 207);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.dialog-title {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0;
+    background: rgb(10, 25, 40);
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    color: white;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.header {
+    padding: 0px 10px;
+}

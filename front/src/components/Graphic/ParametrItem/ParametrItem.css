@@ -1,0 +1,39 @@
+.parametr-item {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    padding: 0px 15px;
+    gap: 5px;
+    border: none;
+    background: none;
+}
+
+.parametr-item:hover {
+    background: rgb(86, 160, 207);
+    filter: brightness(0.8);
+}
+
+.parametr-item__name {
+    width: 180px;
+    color: yellow;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.parametr-item__name:hover {
+    color: white;
+}
+
+.parametr-item__value {
+    width: 52px;
+    display: flex;
+    justify-content: flex-end;
+}
+.parametr-item__unit {
+    width: 86px;
+    display: flex;
+    justify-content: flex-start;
+}
